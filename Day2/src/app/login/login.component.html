@@ -1,0 +1,29 @@
+<div class="login-container container mt-5">
+  <h2 class="card-title mb-3">Login</h2>
+  <form (ngSubmit)="onLogin()" #loginForm="ngForm">
+    <div class="mb-3">
+      <label for="username" class="form-label">Email :  </label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        class="form-control-sm ms-3"
+        [(ngModel)]="username"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password : </label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        class="form-control-sm ms-3"
+        [(ngModel)]="password"
+        required
+      />
+    </div>
+    <button type="submit" class="btn btn-success">Login</button>
+  </form>
+</div>
+
