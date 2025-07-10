@@ -6,6 +6,7 @@ C:\Users\hp2\source\repos\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Enti
 C:\Users\hp2\source\repos\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.AssemblyInfoInputs.cache
 C:\Users\hp2\source\repos\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.AssemblyInfo.cs
 C:\Users\hp2\source\repos\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.csproj.CoreCompileInputs.cache
+C:\Users\hp2\source\repos\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.sourcelink.json
 C:\Users\hp2\source\repos\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.dll
 C:\Users\hp2\source\repos\Mission\Mission.Entities\obj\Debug\net8.0\refint\Mission.Entities.dll
 C:\Users\hp2\source\repos\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.pdb

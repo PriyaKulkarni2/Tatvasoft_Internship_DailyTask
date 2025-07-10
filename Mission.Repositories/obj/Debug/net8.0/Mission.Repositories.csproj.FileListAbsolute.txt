@@ -8,6 +8,7 @@ C:\Users\hp2\source\repos\Mission\Mission.Repositories\obj\Debug\net8.0\Mission.
 C:\Users\hp2\source\repos\Mission\Mission.Repositories\obj\Debug\net8.0\Mission.Repositories.AssemblyInfoInputs.cache
 C:\Users\hp2\source\repos\Mission\Mission.Repositories\obj\Debug\net8.0\Mission.Repositories.AssemblyInfo.cs
 C:\Users\hp2\source\repos\Mission\Mission.Repositories\obj\Debug\net8.0\Mission.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\hp2\source\repos\Mission\Mission.Repositories\obj\Debug\net8.0\Mission.Repositories.sourcelink.json
 C:\Users\hp2\source\repos\Mission\Mission.Repositories\obj\Debug\net8.0\Mission..7EFB1ED9.Up2Date
 C:\Users\hp2\source\repos\Mission\Mission.Repositories\obj\Debug\net8.0\Mission.Repositories.dll
 C:\Users\hp2\source\repos\Mission\Mission.Repositories\obj\Debug\net8.0\refint\Mission.Repositories.dll

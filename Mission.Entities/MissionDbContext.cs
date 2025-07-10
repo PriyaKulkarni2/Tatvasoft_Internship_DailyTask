@@ -12,6 +12,8 @@ namespace Mission.Entities
     {
         public DbSet<User> Users { get; set; }
 
+        public DbSet<MissionSkill> MissionSkills { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().HasData(new User()
@@ -28,3 +30,5 @@ namespace Mission.Entities
         }
     }
 }
+
+//dotnet ef add migrations CreateMissionSkillEntity --project Mission.Entities --startup-project Mission.Api

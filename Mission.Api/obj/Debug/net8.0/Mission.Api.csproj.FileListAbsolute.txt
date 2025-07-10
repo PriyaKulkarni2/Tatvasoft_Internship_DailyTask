@@ -7,6 +7,7 @@ C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.runti
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.pdb
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Humanizer.dll
+C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -23,6 +24,12 @@ C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensi
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\Npgsql.dll
@@ -36,6 +43,7 @@ C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\System.Compositio
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.Hosting.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -102,6 +110,7 @@ C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.Assem
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.csproj.CoreCompileInputs.cache
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.sourcelink.json
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -110,10 +119,10 @@ C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.b
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\Mission..D685B158.Up2Date
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\refint\Mission.Api.dll
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.pdb
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.genruntimeconfig.cache
 C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\ref\Mission.Api.dll
+C:\Users\hp2\source\repos\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
