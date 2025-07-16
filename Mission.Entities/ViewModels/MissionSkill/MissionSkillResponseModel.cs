@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 public class MissionSkillResponseModel : UpsertMissionSkillRequestModel
 {
-    public MissionSkillResponseModel() { }
+    
 
     public MissionSkillResponseModel(Mission.Entities.Models.MissionSkill missionSkill)
     {

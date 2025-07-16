@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting.Internal;
 using Mission.Entities.ViewModels;
 using Mission.Entities.ViewModels.Login;
 using Mission.Entities.ViewModels.User;
@@ -6,11 +7,15 @@ using Mission.Services.IService;
 
 namespace Mission.Api.Controllers
 {
+
+
     [Route("api/[controller]")]
     [ApiController]
-    public class LoginController(IUserService userService) : ControllerBase
+    public class LoginController(IUserService userService, IWebHostEnvironment hostingEnvironment) : ControllerBase
     {
         private readonly IUserService _userService = userService;
+        private readonly IWebHostEnvironment _hostingEnvironment = hostingEnvironment;
+
 
         [HttpPost]
         [Route("LoginUser")]
@@ -69,7 +74,7 @@ namespace Mission.Api.Controllers
         [Route("UpdateUser")]
         public async Task<IActionResult> UpdateUser(UpdateUserRequestModel model)
         {
-            var response = await _userService.UpdateUserAsync(model);
+            var response = await _userService.UpdateUserAsync(model, _hostingEnvironment.ContentRootPath);
 
             if (response.Message == "User not found")
             {

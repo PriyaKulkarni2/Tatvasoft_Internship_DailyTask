@@ -20,7 +20,7 @@ namespace Mission.Services.IService
 
         Task<UserResponseModel?> GetLoginUserDetailById(int userId);
 
-        Task<ResponseResult> UpdateUserAsync(UpdateUserRequestModel model);
+        Task<ResponseResult> UpdateUserAsync(UpdateUserRequestModel model, string imageUploadPath);
 
         Task<bool> DeleteUser(int userId);
     }

@@ -60,9 +60,9 @@ namespace Mission.Services.Service
             return await _userRepository.DeleteUser(userId);
         }
 
-        public async Task<ResponseResult> UpdateUserAsync(UpdateUserRequestModel model)
+        public async Task<ResponseResult> UpdateUserAsync(UpdateUserRequestModel model, string imageUploadPath)
         {
-            var (response, message) = await _userRepository.UpdateUserAsync(model);
+            var (response, message) = await _userRepository.UpdateUserAsync(model, imageUploadPath);
 
             var result = new ResponseResult()
             {

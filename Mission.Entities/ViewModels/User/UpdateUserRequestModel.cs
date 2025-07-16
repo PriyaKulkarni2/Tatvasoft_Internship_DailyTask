@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Mission.Entities.ViewModels.User
@@ -16,5 +18,10 @@ namespace Mission.Entities.ViewModels.User
         public string UserType { get; set; }
 
         public bool RemoveImage { get; set; }
+
+        [JsonIgnore]
+        public IFormFile? ProfileImage { get; set; } = null;
+
+        // Microsoft.AspNetCore.Http Nuget Package required for ProfileImage
     }
 }

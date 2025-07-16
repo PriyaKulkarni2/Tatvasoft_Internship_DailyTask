@@ -19,8 +19,4 @@
     <ProjectReference Include="..\Mission.Services\Mission.Services.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="NewFolder\" />
-  </ItemGroup>
-
 </Project>

@@ -101,7 +101,7 @@ namespace Mission.Repositories.Repository
             };
         }
 
-        public async Task<(bool response, string message)> UpdateUserAsync(UpdateUserRequestModel model)
+        public async Task<(bool response, string message)> UpdateUserAsync(UpdateUserRequestModel model, string imageUploadPath)
         {
             var userInDb = _context.Users.Where(u => model.Id != u.Id && u.EmailAddress.ToLower() == model.EmailAddress.ToLower()).FirstOrDefault();
 
@@ -115,6 +115,19 @@ namespace Mission.Repositories.Repository
             if (user == null)
             {
                 return (false, "User not found");
+            }
+
+            if (model.RemoveImage && !string.IsNullOrEmpty(user.UserImage))
+            {
+                string oldImageFullPath = Path.Combine(imageUploadPath, user.UserImage.Replace("/", Path.DirectorySeparatorChar.ToString()));
+                if (File.Exists(oldImageFullPath))
+                    File.Delete(oldImageFullPath);
+            }
+
+            if (model.ProfileImage != null)
+            {
+                string newImagePath = await UploadFile.SaveImageAsync(model.ProfileImage, "UploadMissionImage/Images", imageUploadPath);
+                user.UserImage = newImagePath;
             }
 
             user.FirstName = model.FirstName;

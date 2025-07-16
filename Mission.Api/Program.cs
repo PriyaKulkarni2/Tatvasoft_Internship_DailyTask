@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 using Mission.Entities;
 using Mission.Repositories.IRepository;
@@ -53,6 +54,15 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IMissionSkillRepository, MissionSkillRepository>();
 builder.Services.AddScoped<IMissionSkillService, MissionSkillService>();
 
+builder.Services.AddScoped<IMissionThemeRepository, MissionThemeRepository>();
+builder.Services.AddScoped<IMissionThemeService, MissionThemeService>();
+
+builder.Services.AddScoped<ICommonRepository, CommonRepository>();
+builder.Services.AddScoped<ICommonService, CommonService>();
+
+builder.Services.AddScoped<IMissionRepository, MissionRepository>();
+builder.Services.AddScoped<IMissionService, MissionService>();
+
 
 var app = builder.Build();
 
@@ -66,6 +76,14 @@ if (app.Environment.IsDevelopment())
 app.UseCors("MyPolicy");
 
 app.UseAuthorization();
+
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(builder.Environment.ContentRootPath, "UploadMissionImage")),
+    RequestPath = "/UploadMissionImage"
+});
 
 app.MapControllers();
 

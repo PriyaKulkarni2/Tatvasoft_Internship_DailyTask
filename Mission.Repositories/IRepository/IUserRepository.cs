@@ -17,7 +17,7 @@ namespace Mission.Repositories.IRepository
 
         Task<UserResponseModel?> GetLoginUserDetailById(int userId);
 
-        Task<(bool response, string message)> UpdateUserAsync(UpdateUserRequestModel model);
+        Task<(bool response, string message)> UpdateUserAsync(UpdateUserRequestModel model, string imageUploadPath);
 
         Task<bool> DeleteUser(int userId);
     }
